@@ -1,1 +1,24 @@
-Exemplo
+No windows
+Dir- Diretório, e acompanha flags
+Cd- change directory- navega nas pastas
+Cd + "nome do diretório" acessa pagina
+Cd .. retorna 1 nv
+Mkdir cria um diretório
+Echo retorna a msg no terminal
+Echo Hello>Hello.txt atribui o valor Hello dentro do hello.txt
+======================================================
+Objetos
+Blobs/Tree/Commits
+
+Blobs- Eles armazenam o tipo o tamanho e o conteúdo dos arquivos. e contem um SHA1 que é uma chave de criptografia e armazenam meta dados
+
+Tree- Elas apontam para os blobs e outra Tree, pq são diretórios tbm e seu SHA1 é composto por todo seu esqueleto
+
+Commit- Eles apontam p/ uma árvore, p/ um parente(commit anterior), apontam p/ autor ou msg. commit tem data, horário, eles tem um SHA1 que é o Hash de toda essa informação, e servem como um registro uma proteção de autenticidade
+==================================
+Tracked
+Untracker
+Unmodified
+Modified
+Staged
+Esses são os status dos arquivos no git, que variam de acordo com o uso deles.
