@@ -1,0 +1,18 @@
+Portas, por onde os dados entram e sai
+
+20:Ftp
+22:SSH
+25:smtp
+53:DNS
+80:HTTP
+443:HTTPS
+===============
+Wi-Fi
+IEEE 802.11: 2,4 GHz, 2Mbps
+• IEEE 802.11a: 5 GHz, 54Mbps
+IEEE 802.11b: 2,4 GHz, 11Mbps (diminuição de
+interferência)
+●
+IEEE 802.11g: 2,4 GHz, 54Mbps
+●
+IEEE 802.11n: 2,4 GHz/5GHz, 150-600Mbps
