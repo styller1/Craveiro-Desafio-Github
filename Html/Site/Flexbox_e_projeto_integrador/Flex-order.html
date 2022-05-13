@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Order</title>
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+        .item{
+            flex:2;
+            background: brown;
+            color: aliceblue;
+            text-align: center;
+            font-size: 24px;
+            margin: 5px;
+        }
+        .o1{
+            order: 1;
+        }
+        .o2{
+            order: 2;
+        }
+        .o3{
+            order: -3;
+        }
+        .direction{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <p>order: 0</p>
+    <div class="container">
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+    <p>Orders diferentes</p>
+    <div class="container">
+        <div class="item o3">2</div>
+        <div class="item o3">3</div>
+        <div class="item o3">4</div>
+        <div class="item o2">5</div>
+        <div class="item o1">6</div>
+    </div>
+    <p>order in column</p>
+    <div class="container direction">
+        <div class="item o2">2</div>
+        <div class="item o1">3</div>
+        <div class="item o2">4</div>
+        <div class="item o3">5</div>
+        <div class="item o2">6</div>
+    </div>
+</body>
+</html>
